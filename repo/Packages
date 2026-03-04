@@ -1,0 +1,15 @@
+Package: tsumtsum
+Version: 12.3.2
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 6208
+Filename: debs/moco_12.3.2_iphoneos-arm64.deb
+Size: 1377494
+MD5sum: 8ec45acab276cf1498ade1c2baa0afaf
+SHA1: 9d06b6b8df83150eb47e75b387e6ec2150759524
+SHA256: 59ef042db3582d205cb636c267c2e86f8ba8eae04e33194fbe3f5a850303f41a
+Section: Tweaks
+Description: 全てのルートレスデバイスと互換性があります。
+Author: moco
+Name: TsumTsum M0C0 MENU
+
