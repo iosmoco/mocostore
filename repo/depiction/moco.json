@@ -1,7 +1,7 @@
 {
   "minVersion": "0.4",
   "class": "DepictionTabView",
-  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/icon.png",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/banner.png",
   "tintColor": "#6ec6d9",
   "tabs": [
     {
@@ -35,7 +35,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### パッケージ情報\\n- **Package**: tsumtsum\\n- **Version**: 12.3.2\\n- **Author**: moco\\n- **Section**: Tweaks"
+          "markdown": "### パッケージ情報\n- **Package**: tsumtsum\n- **Version**: 12.3.2\n- **Author**: moco\n- **Section**: Tweaks"
         }
       ]
     }
