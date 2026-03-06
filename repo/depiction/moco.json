@@ -1,0 +1,43 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/icon.png",
+  "tintColor": "#6ec6d9",
+  "tabs": [
+    {
+      "tabname": "詳細",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "TsumTsum M0C0 MENU",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "全てのルートレスデバイスと互換性があります。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://iosmoco.github.io/mocostore/repo/images/icon.png",
+          "width": 128,
+          "height": 128,
+          "cornerRadius": 24,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### パッケージ情報\\n- **Package**: tsumtsum\\n- **Version**: 12.3.2\\n- **Author**: moco\\n- **Section**: Tweaks"
+        }
+      ]
+    }
+  ]
+}
