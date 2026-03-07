@@ -47,39 +47,56 @@ data = {
     "class": "DepictionTabView",
     "headerImage": "https://iosmoco.github.io/mocostore/repo/images/banner.png",
     "tintColor": "#6ec6d9",
+    "backgroundColor": "#111111",
     "tabs": [
         {
             "tabname": "詳細",
             "class": "DepictionStackView",
             "views": [
                 {
-                    "class": "DepictionHeaderView",
-                    "title": os.environ["NAME"],
-                    "useBoldText": True
-                },
-                {
                     "class": "DepictionMarkdownView",
                     "markdown": os.environ["DESCRIPTION"]
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 16
+                    "spacing": 10
                 },
                 {
                     "class": "DepictionImageView",
                     "URL": os.environ["ICON_URL"],
-                    "width": 128,
-                    "height": 128,
+                    "width": 130,
+                    "height": 130,
                     "cornerRadius": 24,
                     "alignment": 1
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 16
+                    "spacing": 10
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": f"### パッケージ情報\n- **Package**: {os.environ['PACKAGE']}\n- **Version**: {os.environ['VERSION']}\n- **Author**: {os.environ['AUTHOR']}\n- **Section**: {os.environ['SECTION']}"
+                    "class": "DepictionSubheaderView",
+                    "title": "パッケージ情報",
+                    "useBoldText": True
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Package",
+                    "text": os.environ["PACKAGE"]
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": os.environ["VERSION"]
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": os.environ["AUTHOR"]
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Section",
+                    "text": os.environ["SECTION"]
                 }
             ]
         }
