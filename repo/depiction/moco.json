@@ -20,8 +20,8 @@
         {
           "class": "DepictionImageView",
           "URL": "https://iosmoco.github.io/mocostore/repo/images/icon.png",
-          "width": 80,
-          "height": 80,
+          "width": 50,
+          "height": 50,
           "cornerRadius": 24,
           "alignment": 1
         },
