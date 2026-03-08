@@ -15,3 +15,21 @@ Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
+Package: tsumtsum
+Version: 12.3.2
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 6324
+Depends: mobilesubstrate
+Filename: debs/rainbow_12.3.2_iphoneos-arm64.deb
+Size: 1483512
+MD5sum: fa6a83fcf0a55142ca948e619fe06dc0
+SHA1: 34f761ee40a3927775f9eba324dce2da834a0982
+SHA256: fb47490352bd7c66996e11198425d18ef752c9ffcd2ed7833eba37641977d7af
+Section: Tweaks
+Description: すべてのルートレスデバイスと互換性があります。
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: TsumTsum RAINBOW MOD
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
+
