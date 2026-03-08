@@ -11,7 +11,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "すべてのルートレスデバイスと互換性があります。"
+          "markdown": "全てのルートレスデバイスと互換性があります。"
         },
         {
           "class": "DepictionSpacerView",
