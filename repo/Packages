@@ -1,3 +1,20 @@
+Package: rainbow
+Version: 12.3.2
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 6176
+Depends: mobilesubstrate
+Filename: debs/rainbow_12.3.2_iphoneos-arm64.deb
+Size: 1372048
+MD5sum: 3f8268de0566bc11ecbbe9f3ecd5d1ff
+SHA1: 42dcfb92e990c524b99c609623d17660c328022d
+SHA256: fd1339133869cfb097398e07881fae3b724436ec5c584bf71ac2c8fc7d149d34
+Section: Tweaks
+Description: すべてのルートレスデバイスと互換性があります。
+Author: moco
+Name: TsumTsum RAINBOW MOD
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/rainbow.json
+
 Package: tsumtsum
 Version: 12.3.2
 Architecture: iphoneos-arm64

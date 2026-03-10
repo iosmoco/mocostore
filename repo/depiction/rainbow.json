@@ -1,7 +1,7 @@
 {
   "minVersion": "0.4",
   "class": "DepictionTabView",
-  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/banner.png",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/rainbow_banner.png",
   "tintColor": "#6ec6d9",
   "backgroundColor": "#111111",
   "tabs": [
@@ -23,24 +23,16 @@
           "itemSize": "{140, 260}",
           "screenshots": [
             {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss1.png",
-              "accessibilityText": "Menu screenshot 1"
+              "url": "https://iosmoco.github.io/mocostore/repo/images/rainbow_ss1.png",
+              "accessibilityText": "Rainbow screenshot 1"
             },
             {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss2.png",
-              "accessibilityText": "Menu screenshot 2"
+              "url": "https://iosmoco.github.io/mocostore/repo/images/rainbow_ss2.png",
+              "accessibilityText": "Rainbow screenshot 2"
             },
             {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss3.png",
-              "accessibilityText": "Menu screenshot 3"
-            },
-            {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss4.png",
-              "accessibilityText": "Menu screenshot 4"
-            },
-            {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss5.png",
-              "accessibilityText": "Menu screenshot 5"
+              "url": "https://iosmoco.github.io/mocostore/repo/images/rainbow_ss3.png",
+              "accessibilityText": "Rainbow screenshot 3"
             }
           ]
         },
