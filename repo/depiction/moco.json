@@ -51,7 +51,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### パッケージ情報\n- **Package**: rainbow\n- **Version**: 12.3.2\n- **Author**: moco\n- **Section**: Tweaks"
+          "markdown": "### パッケージ情報\n- **Package**: TsumTsum\n- **Version**: 12.3.2\n- **Author**: moco\n- **Section**: Tweaks"
         }
       ]
     }
