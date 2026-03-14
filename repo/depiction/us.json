@@ -1,7 +1,7 @@
 {
   "minVersion": "0.4",
   "class": "DepictionTabView",
-  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/ipad_banner.png",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/us_banner.png",
   "tintColor": "#6ec6d9",
   "backgroundColor": "#111111",
   "tabs": [
