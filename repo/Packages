@@ -49,6 +49,23 @@ Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
+Package: tsumtsum.glass
+Version: 12.3.2
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 6564
+Depends: mobilesubstrate
+Filename: debs/tsumtsum.glass_12.3.2_iphoneos-arm64.deb
+Size: 1658752
+MD5sum: da8963bda4f954e4fc7f6a95627c24de
+SHA1: 6c9b9e832a48aed73dba666fc9b7e3239393e029
+SHA256: a88d12409f3b71717c4801064d5784d454641063ee7cbf5a16cf35695d57abec
+Section: Tweaks
+Description: すべてのルートレスデバイスと互換性があります。
+Author: moco
+Name: TsumTsum GLASS MODMENU
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
+
 Package: tsumtsum.us.ipad
 Version: 12.3.2
 Architecture: iphoneos-arm64

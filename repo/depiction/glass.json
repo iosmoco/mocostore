@@ -1,0 +1,54 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/glass_banner.png",
+  "tintColor": "#6ec6d9",
+  "backgroundColor": "#111111",
+  "tabs": [
+    {
+      "tabname": "詳細",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "全ての行為は自己責任です。すべてのルートレスデバイスと互換性があります。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 18,
+          "itemSize": "{140, 260}",
+          "screenshots": [
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss1.png",
+              "accessibilityText": "ipad screenshot 1"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss2.png",
+              "accessibilityText": "ipad screenshot 2"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss3.png",
+              "accessibilityText": "ipad screenshot 3"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss4.png",
+              "accessibilityText": "ipad screenshot 4"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### パッケージ情報\n- **Package**: TsumTsum.glass\n- **Version**: 12.3.2\n- **Author**: moco\n- **Section**: Tweaks"
+        }
+      ]
+    }
+  ]
+}
