@@ -11,7 +11,15 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "全ての行為は自己責任です。\n\nすべてのルートレスデバイスと互換性があります。"
+          "markdown": "**全ての行為は自己責任です。**"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 6
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "すべてのルートレスデバイスと互換性があります。"
         },
         {
           "class": "DepictionSpacerView",
