@@ -24,19 +24,19 @@
           "screenshots": [
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss1.png",
-              "accessibilityText": "ipad screenshot 1"
+              "accessibilityText": "glass screenshot 1"
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss2.png",
-              "accessibilityText": "ipad screenshot 2"
+              "accessibilityText": "glass screenshot 2"
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss3.png",
-              "accessibilityText": "ipad screenshot 3"
+              "accessibilityText": "glass screenshot 3"
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/glass_ss4.png",
-              "accessibilityText": "ipad screenshot 4"
+              "accessibilityText": "glass screenshot 4"
             }
           ]
         },
