@@ -5,10 +5,10 @@ Maintainer: moco
 Installed-Size: 6436
 Depends: mobilesubstrate
 Filename: debs/tsumtsum.glass_12.4.0_iphoneos-arm64.deb
-Size: 1559618
-MD5sum: 4f7ec754b6d1c2a340a4abf019a3ce96
-SHA1: 66adb6dc6c5aa50786c807da7ec41002846522a3
-SHA256: b379bcc622d643fec6dedafe688be4be64908c4bffb8df79052fb3cf50c0cc16
+Size: 1560388
+MD5sum: 8e20438ced2597db60a3890f48247adf
+SHA1: fe00869b230cb761c381ecd449614e19b9e8f7f8
+SHA256: 4ff35f499b65866f2f608e9bd247514217941ac86694f78ed13697f8a24452ea
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
