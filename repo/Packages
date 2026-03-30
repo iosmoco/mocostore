@@ -1,14 +1,31 @@
+Package: tsumtsum
+Version: 12.4.0
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 6208
+Filename: debs/TsumTsum_12.4.0_iphoneos-arm64.deb
+Size: 1379728
+MD5sum: 2f6d6ef0d1f9f78be44105051f569ecf
+SHA1: 4e647892cf74b28460b4f78e1400d8b00d81c570
+SHA256: 3e5ebc3428a9659a6168c28d5a5ecf93e76b85c60c04eb6c5ad2f40116604086
+Section: Tweaks
+Description: 全てのルートレスデバイスと互換性があります。
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: TsumTsum M0C0 MENU
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
+
 Package: tsumtsum.glass
 Version: 12.4.0
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6436
 Depends: mobilesubstrate
-Filename: debs/tsumtsum.glass_12.4.0_iphoneos-arm64.deb
-Size: 1560388
-MD5sum: 8e20438ced2597db60a3890f48247adf
-SHA1: fe00869b230cb761c381ecd449614e19b9e8f7f8
-SHA256: 4ff35f499b65866f2f608e9bd247514217941ac86694f78ed13697f8a24452ea
+Filename: debs/TsumTsum.glass_12.4.0_iphoneos-arm64.deb
+Size: 1559832
+MD5sum: cc194cc9c9b7942c0da14d9b3efd4399
+SHA1: 4089d2d4473193d8c38a8bad2dde820a8e8cb4f6
+SHA256: ae26927be2f018e789bf0d37601005d0cc2478ca4f271883ea861a70f79d3040
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
