@@ -1,0 +1,96 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/theos_banner.png",
+  "tintColor": "#25D0D0",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "詳細",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "# Rootless Theos Installer\n\nRootless 環境向けに Theos を簡単に導入するためのセットアップ補助パッケージです。"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/theos_1.png",
+              "accessibilityText": "nic 起動画面"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/theos_2.png",
+              "accessibilityText": "Terminal での theossetup 画面"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/theos_3.png",
+              "accessibilityText": "インストール画面"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## 使い方\n\n1. パッケージをインストール\n2. Terminal を開く\n3. `theossetup` を実行\n4. セットアップ完了後に `nic` を実行\n\n## 補足\n\n- 初回セットアップは端末性能や通信状況によって少し時間がかかります。\n- 進行状況は `theoslog` で確認できます。\n- 必要に応じて `respring` が使えます。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "主な内容",
+          "useMargins": true,
+          "useBottomMargin": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": false,
+          "markdown": "- Rootless 環境向け Theos セットアップ補助\n- `theossetup` コマンドを追加\n- `nic` / `theoslog` / `respring` を使いやすく設定\n- iPhoneOS 14.5 SDK と新しい SDK を導入\n- 必要に応じて、その他の SDK は各自で追加してください"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "パッケージ名",
+          "text": "Rootless Theos Installer"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "対象",
+          "text": "Procursus rootless"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作成者",
+          "text": "moco"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新履歴",
+      "views": [
+        {
+          "class": "DepictionTableTextView",
+          "title": "1.0.0",
+          "text": "Initial Release"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": false,
+          "markdown": "- Rootless Theos Installer 初回リリース\n- `theossetup` による手動セットアップ対応\n- Sileo / Filza での導入を考慮した軽量 postinst 構成"
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,20 @@
+Package: com.moco.rootlesstheosinstaller
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 8
+Depends: bash, curl, sudo, coreutils, xz-utils, git, theos-dependencies
+Filename: debs/com.moco.rootlesstheosinstaller_1.0.0_iphoneos-arm64.deb
+Size: 3124
+MD5sum: 05966ae5c7bec2a91fb477494bd9262a
+SHA1: adf0abadb616a22b87c7e52d55b91457cedeaafc
+SHA256: 591a3776a41fb872e1fc732e42b695c3ff25322baeb20ae27a215935ea091938
+Section: Development
+Description: Installs Theos and required SDKs on Procursus rootless devices
+Author: moco
+Name: Rootless Theos Installer
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
+
 Package: tsumtsum
 Version: 12.4.0
 Architecture: iphoneos-arm64
