@@ -54,7 +54,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": false,
-          "markdown": "- Rootless 環境向け Theos セットアップ補助\n- `theossetup` コマンドを追加\n- `nic` / `theoslog` / `respring` を使いやすく設定\n- iPhoneOS 14.5 SDK と新しい SDK を導入\n- 必要に応じて、その他の SDK は各自で追加してください"
+          "markdown": "- Rootless 環境向け Theos セットアップ補助\n- `theossetup` コマンドを追加\n- `nic` / `theoslog` / `respring` を使えるように設定\n- iPhoneOS 14.5 SDK と最新 SDK を導入\n- 必要に応じて、その他の SDK は各自で追加してください"
         },
         {
           "class": "DepictionSeparatorView"
