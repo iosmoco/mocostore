@@ -42,7 +42,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### パッケージ情報\n- **Package**: TsumTsum.rainbow\n- **Version**: 12.4.0\n- **Author**: moco\n- **Section**: Tweaks"
+          "markdown": "### パッケージ情報\n- **Package**: TsumTsum.rainbow\n- **Version**: 12.4.1\n- **Author**: moco\n- **Section**: Tweaks"
         }
       ]
     }
