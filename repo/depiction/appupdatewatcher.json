@@ -1,7 +1,6 @@
 {
   "minVersion": "0.4",
   "class": "DepictionTabView",
-  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/banner.png",
   "tintColor": "#E84FA3",
   "tabs": [
     {
@@ -9,17 +8,25 @@
       "tabname": "詳細",
       "views": [
         {
+          "class": "DepictionImageView",
+          "URL": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/banner.png",
+          "width": 334,
+          "height": 95,
+          "cornerRadius": 14,
+          "alignment": 1
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "App Update Watcher"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "選択した App Store アプリのアップデートを監視し、見つけたら通知します。\\n\\n通知対象アプリを選ぶだけで、更新が見つかった際に独自バナーで分かりやすく知らせます。"
+          "markdown": "選択した App Store アプリのアップデートを監視し、見つけたら通知します。\n\n通知対象アプリを選ぶだけで、更新が見つかった際に独自バナーで分かりやすく知らせます。"
         },
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 18,
-          "itemSize": "{180,390}",
+          "itemSize": "{145,314}",
           "screenshots": [
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/screen1.png",
@@ -35,19 +42,8 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "対応環境",
-          "text": "rootless / PreferenceLoader"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "通知方式",
-          "text": "独自バナー通知"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "設定項目",
-          "text": "監視の有効化 / 通知対象アプリの選択"
+          "class": "DepictionMarkdownView",
+          "markdown": "### 対応情報\n\n**対応環境**  \nrootless / PreferenceLoader\n\n**通知方式**  \n独自バナー通知\n\n**設定項目**  \n監視の有効化 / 通知対象アプリの選択"
         }
       ]
     },
@@ -57,7 +53,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 1.0.0-1\\n- 初回リリース\\n- 通知対象アプリの選択機能を追加\\n- App Store の更新を独自バナーで通知\\n- 設定一覧アイコンを追加"
+          "markdown": "### 1.0.0-1\n- 初回リリース\n- 通知対象アプリの選択機能を追加\n- App Store の更新を独自バナーで通知\n- 設定一覧アイコンを追加"
         }
       ]
     }
