@@ -1,3 +1,20 @@
+Package: com.moco.appupdatewatcher
+Version: 1.0.0-1
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 416
+Depends: preferenceloader
+Filename: debs/com.moco.appupdatewatcher_1.0.0-1_iphoneos-arm64.deb
+Size: 50648
+MD5sum: 169a9e54ace843f7eedc17dae7e61c14
+SHA1: 82fc2a656fda23381ddedd6f407e465b9bf3363f
+SHA256: 034cd970e266a30d4e602e078efc96f015b80f1c79a3650f05d099d1d08bd87c
+Section: Tweaks
+Description: 選択した App Store アプリのアップデートを通知します。
+Author: moco
+Name: App Update Watcher
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depictions/appupdatewatcher.json
+
 Package: com.moco.rootlesstheosinstaller
 Version: 1.0.0
 Architecture: iphoneos-arm64

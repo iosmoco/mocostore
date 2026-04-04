@@ -1,0 +1,65 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/banner.png",
+  "tintColor": "#E84FA3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "詳細",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "App Update Watcher"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "選択した App Store アプリのアップデートを監視し、見つけたら通知します。\\n\\n通知対象アプリを選ぶだけで、更新が見つかった際に独自バナーで分かりやすく知らせます。"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 18,
+          "itemSize": "{180,390}",
+          "screenshots": [
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/screen1.png",
+              "accessibilityText": "通知対象アプリの一覧画面"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/screen2.png",
+              "accessibilityText": "アップデート通知バナーの表示"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "対応環境",
+          "text": "rootless / PreferenceLoader"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "通知方式",
+          "text": "独自バナー通知"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "設定項目",
+          "text": "監視の有効化 / 通知対象アプリの選択"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新履歴",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 1.0.0-1\\n- 初回リリース\\n- 通知対象アプリの選択機能を追加\\n- App Store の更新を独自バナーで通知\\n- 設定一覧アイコンを追加"
+        }
+      ]
+    }
+  ]
+}
