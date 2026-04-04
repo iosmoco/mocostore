@@ -1,20 +1,13 @@
 {
   "minVersion": "0.4",
   "class": "DepictionTabView",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/banner_v3.png?v=1",
   "tintColor": "#E84FA3",
   "tabs": [
     {
       "class": "DepictionStackView",
       "tabname": "詳細",
       "views": [
-        {
-          "class": "DepictionImageView",
-          "URL": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/banner_v2.png",
-          "width": 334,
-          "height": 145,
-          "cornerRadius": 14,
-          "alignment": 1
-        },
         {
           "class": "DepictionHeaderView",
           "title": "App Update Watcher"
@@ -26,7 +19,7 @@
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 18,
-          "itemSize": "{145,314}",
+          "itemSize": "{125,270}",
           "screenshots": [
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/appupdatewatcher/screen1.png",
@@ -43,7 +36,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 対応情報\n\n**対応環境**  \nrootless / PreferenceLoader\n\n**通知方式**  \n独自バナー通知\n\n**設定項目**  \n監視の有効化 / 通知対象アプリの選択"
+          "markdown": "### 対応情報\n\n**対応環境**\nrootless / PreferenceLoader\n\n**通知方式**\n独自バナー通知\n\n**設定項目**\n監視の有効化 / 通知対象アプリの選択"
         }
       ]
     },
