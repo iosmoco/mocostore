@@ -13,7 +13,7 @@ Section: Tweaks
 Description: 選択した App Store アプリのアップデートを通知します。
 Author: moco
 Name: App Update Watcher
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/appupdatewatcher.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/appupdatewatcher.json
 
 Package: com.moco.rootlesstheosinstaller
 Version: 1.0.0
@@ -30,7 +30,7 @@ Section: Development
 Description: Installs Theos and required SDKs on Procursus rootless devices
 Author: moco
 Name: Rootless Theos Installer
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
 
 Package: tsumtsum
 Version: 12.4.1
@@ -47,7 +47,7 @@ Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
 Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum M0C0 MENU
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
 Package: tsumtsum.glass
 Version: 12.4.1
@@ -64,7 +64,7 @@ Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum GLASS MODMENU
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
 
 Package: tsumtsum.ipad
 Version: 12.4.1
@@ -81,7 +81,7 @@ Section: Tweaks
 Description: 全ての行為は自己責任です。すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum iPad-ONLY MENU
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/ipad.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/ipad.json
 
 Package: tsumtsum.rainbow
 Version: 12.4.1
@@ -98,5 +98,4 @@ Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum RAINBOW MOD
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/rainbow.json
-
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/rainbow.json
