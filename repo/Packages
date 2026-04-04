@@ -13,7 +13,7 @@ Section: Tweaks
 Description: 選択した App Store アプリのアップデートを通知します。
 Author: moco
 Name: App Update Watcher
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/appupdatewatcher.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/appupdatewatcher.json
 
 Package: com.moco.rootlesstheosinstaller
 Version: 1.0.0
@@ -30,14 +30,14 @@ Section: Development
 Description: Installs Theos and required SDKs on Procursus rootless devices
 Author: moco
 Name: Rootless Theos Installer
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
 
 Package: tsumtsum
 Version: 12.4.1
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6208
-Filename: debs/TsumTsum_12.4.1_iphoneos-arm64.deb
+Filename: debs/tsumtsum_12.4.1_iphoneos-arm64.deb
 Size: 1378416
 MD5sum: 01794e3bb7b0b61803a9c9750ed66fe6
 SHA1: fe6db41bb9cb655d1f4d6343bf898343d9a97d6d
@@ -47,7 +47,7 @@ Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
 Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum M0C0 MENU
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
 Package: tsumtsum.glass
 Version: 12.4.1
@@ -55,7 +55,7 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6436
 Depends: mobilesubstrate
-Filename: debs/TsumTsum.glass_12.4.1_iphoneos-arm64.deb
+Filename: debs/tsumtsum.glass_12.4.1_iphoneos-arm64.deb
 Size: 1561510
 MD5sum: b9f3dd9ba016d36c71077df8043e8be7
 SHA1: afba50fe80bcff778908b68d79527f948f8f1681
@@ -64,7 +64,7 @@ Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum GLASS MODMENU
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
 
 Package: tsumtsum.ipad
 Version: 12.4.1
@@ -72,7 +72,7 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6192
 Depends: mobilesubstrate
-Filename: debs/TsumTsum.ipad_12.4.1_iphoneos-arm64.deb
+Filename: debs/tsumtsum.ipad_12.4.1_iphoneos-arm64.deb
 Size: 1377976
 MD5sum: d929a0b5a60c0ddee3c8ceaee8cf9d0a
 SHA1: 3a7a6d402152809efb3cc743e0fc14a1906e9d13
@@ -81,7 +81,7 @@ Section: Tweaks
 Description: 全ての行為は自己責任です。すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum iPad-ONLY MENU
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/ipad.json
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/ipad.json
 
 Package: tsumtsum.rainbow
 Version: 12.4.1
@@ -89,7 +89,7 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6192
 Depends: mobilesubstrate
-Filename: debs/TsumTsum.rainbow_12.4.1_iphoneos-arm64.deb
+Filename: debs/tsumtsum.rainbow_12.4.1_iphoneos-arm64.deb
 Size: 1375808
 MD5sum: 2e23eb05132b29678ea60c5eeaf95608
 SHA1: 4ba848bc929828156aaa2462b0e3e9e4ad1429f0
@@ -98,5 +98,4 @@ Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum RAINBOW MOD
-Sileodepiction: https://iosmoco.github.io/mocostore/repo/depiction/rainbow.json
-
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/rainbow.json
