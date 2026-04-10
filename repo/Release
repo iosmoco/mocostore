@@ -1,8 +1,14 @@
 Origin: iosmoco
-Label: moco Repo
+Label: iosmoco
 Suite: stable
-Codename: ios
 Version: 1.0
-Architectures: iphoneos-arm64
+Codename: iosmoco
+Architecture: iphoneos-arm64
 Components: main
-Description: moco repo
+Description: iosmoco repository
+MD5Sum:
+ 0a281da0825e3b259b17145329675934 3672 Packages
+ 1b50578eac4fb807506a09490607b9aa 1388 Packages.gz
+SHA256:
+ 0eb143e9838195d29169f6b9089a1fdcbe967afb0eda080cc90ee9f6c84be429 3672 Packages
+ 931b5764c227b05243077e8574049049d5cf3551710103699477f7c1d0bfa8ba 1388 Packages.gz

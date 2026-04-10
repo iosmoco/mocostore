@@ -32,7 +32,6 @@ def get_field(deb_path: str, field: str) -> str:
         return ""
     return result.stdout.strip()
 
-# 各 deb から Package名 -> SileoDepiction URL を集める
 sileo_map = {}
 for deb in sorted(Path("debs").glob("*.deb")):
     pkg = get_field(str(deb), "Package")
@@ -51,7 +50,6 @@ for entry in entries:
             package_name = line.split(": ", 1)[1]
             break
 
-    # 既存の Sileodepiction / SileoDepiction は一旦消す
     lines = [
         line for line in lines
         if not line.startswith("Sileodepiction:")
@@ -59,7 +57,6 @@ for entry in entries:
     ]
 
     if package_name and package_name in sileo_map:
-        # Name の直後に入れる。無ければ末尾に追加
         insert_index = len(lines)
         for i, line in enumerate(lines):
             if line.startswith("Name: "):
@@ -73,6 +70,30 @@ packages_path.write_text("\n\n".join(new_entries) + "\n", encoding="utf-8")
 PY
 
   gzip -kf Packages
+
+  PKG_SIZE=$(wc -c < Packages | tr -d ' ')
+  PKG_GZ_SIZE=$(wc -c < Packages.gz | tr -d ' ')
+  PKG_MD5=$(md5 -q Packages)
+  PKG_GZ_MD5=$(md5 -q Packages.gz)
+  PKG_SHA256=$(shasum -a 256 Packages | awk '{print $1}')
+  PKG_GZ_SHA256=$(shasum -a 256 Packages.gz | awk '{print $1}')
+
+  cat > Release <<EOF
+Origin: iosmoco
+Label: iosmoco
+Suite: stable
+Version: 1.0
+Codename: iosmoco
+Architecture: iphoneos-arm64
+Components: main
+Description: iosmoco repository
+MD5Sum:
+ $PKG_MD5 $PKG_SIZE Packages
+ $PKG_GZ_MD5 $PKG_GZ_SIZE Packages.gz
+SHA256:
+ $PKG_SHA256 $PKG_SIZE Packages
+ $PKG_GZ_SHA256 $PKG_GZ_SIZE Packages.gz
+EOF
 )
 
 git add .
