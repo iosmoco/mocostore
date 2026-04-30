@@ -33,15 +33,15 @@ Name: Rootless Theos Installer
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
 
 Package: tsumtsum
-Version: 12.4.1
+Version: 12.5.1
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6208
-Filename: debs/tsumtsum_12.4.1_iphoneos-arm64.deb
-Size: 1378416
-MD5sum: 01794e3bb7b0b61803a9c9750ed66fe6
-SHA1: fe6db41bb9cb655d1f4d6343bf898343d9a97d6d
-SHA256: bf4579208f0d6b0fb448f5083949dc1f6ba7b17dda1a32a2681b0050b37e6fb1
+Filename: debs/tsumtsum_12.5.1_iphoneos-arm64.deb
+Size: 1379556
+MD5sum: 59a1b9dbbf6bbd8da4a005a396456309
+SHA1: 4262dc55a4bb6cba4ffb2cd3ad5eda3a28317d14
+SHA256: 65ab0f1046395cb5ac3e8010ab208d1b99564231e42d31a056724d2b1a36fa69
 Section: Tweaks
 Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
@@ -50,50 +50,33 @@ Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
 Package: tsumtsum.glass
-Version: 12.4.1
+Version: 12.5.1
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6436
 Depends: mobilesubstrate
-Filename: debs/tsumtsum.glass_12.4.1_iphoneos-arm64.deb
-Size: 1561510
-MD5sum: b9f3dd9ba016d36c71077df8043e8be7
-SHA1: afba50fe80bcff778908b68d79527f948f8f1681
-SHA256: 53a2e172f2aa41d9544fc71e7575a3b6cadb8cbd0bc673319b7c77e913968926
+Filename: debs/tsumtsum.glass_12.5.1_iphoneos-arm64.deb
+Size: 1560756
+MD5sum: cc380698a136c4d771ee92e1ccbe7c3a
+SHA1: 545fa84229dcb7f99d853f638b5a60a7deb3ceb0
+SHA256: 4d6d185316f2fa74a799f437a888071335058b4ba30b54d3b12bf77130765607
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum GLASS MODMENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
 
-Package: tsumtsum.ipad
-Version: 12.4.1
-Architecture: iphoneos-arm64
-Maintainer: moco
-Installed-Size: 6192
-Depends: mobilesubstrate
-Filename: debs/tsumtsum.ipad_12.4.1_iphoneos-arm64.deb
-Size: 1377976
-MD5sum: d929a0b5a60c0ddee3c8ceaee8cf9d0a
-SHA1: 3a7a6d402152809efb3cc743e0fc14a1906e9d13
-SHA256: bba7550c1e2732d7a452dd572e7959ec334cbf4c17810f6e9cea30cca26f1ac8
-Section: Tweaks
-Description: 全ての行為は自己責任です。すべてのルートレスデバイスと互換性があります。
-Author: moco
-Name: TsumTsum iPad-ONLY MENU
-SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/ipad.json
-
 Package: tsumtsum.rainbow
-Version: 12.4.1
+Version: 12.5.1
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6192
 Depends: mobilesubstrate
-Filename: debs/tsumtsum.rainbow_12.4.1_iphoneos-arm64.deb
-Size: 1375808
-MD5sum: 2e23eb05132b29678ea60c5eeaf95608
-SHA1: 4ba848bc929828156aaa2462b0e3e9e4ad1429f0
-SHA256: 02f6f88baecac9546acef76857fc8184d05f9cc77e9d9a145c256a55eaf6c703
+Filename: debs/tsumtsum.rainbow_12.5.1_iphoneos-arm64.deb
+Size: 1374982
+MD5sum: 2ad32e2d59fcacb396128af2f9341f63
+SHA1: e6d26eaf671b648e2b48921186e549434ee203c2
+SHA256: 40947adbd25a4454c0d7259525016bbdf56831d84e536d7477a3a012ecbebbc8
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
