@@ -73,10 +73,10 @@ Maintainer: moco
 Installed-Size: 6192
 Depends: mobilesubstrate
 Filename: debs/tsumtsum.rainbow_12.5.1_iphoneos-arm64.deb
-Size: 1374982
-MD5sum: 2ad32e2d59fcacb396128af2f9341f63
-SHA1: e6d26eaf671b648e2b48921186e549434ee203c2
-SHA256: 40947adbd25a4454c0d7259525016bbdf56831d84e536d7477a3a012ecbebbc8
+Size: 1376120
+MD5sum: 1dc69b02a0f7048c277b22be5c5716bd
+SHA1: a31a317295d5e543c680924729e5bcde4628bb75
+SHA256: 70ae71069083b0e2255475270fa19ec2e1320a1253437f11cd2b89483a13a96b
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
