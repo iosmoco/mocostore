@@ -50,15 +50,15 @@ Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
 Package: tsumtsum.glass
-Version: 12.5.1
+Version: 12.6.0
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6596
-Filename: debs/tsumtsum.glass_12.5.1_iphoneos-arm64.deb
-Size: 1678486
-MD5sum: 4029275e19b8910e8f64f57b44814a76
-SHA1: 25456a1b6afe29f6cb8f8690dc55f208b2d26c2a
-SHA256: 1aeb053e626326a13abfbe3b04431fbe3ac185179cc2451479a727a7eb2771b9
+Filename: debs/tsumtsum.glass_12.6.0_iphoneos-arm64.deb
+Size: 1679638
+MD5sum: 17f8ac461f07314ea0c92852bd8d8dee
+SHA1: b45f2e2f041335379452b50664518359c8990ea1
+SHA256: b8d6c236e509ed77c12f2666519df6d24bd2d88374feceac6836aff84600a6a6
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
