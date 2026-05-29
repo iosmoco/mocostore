@@ -55,10 +55,10 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6596
 Filename: debs/tsumtsum.glass_12.6.0_iphoneos-arm64.deb
-Size: 1679638
-MD5sum: 17f8ac461f07314ea0c92852bd8d8dee
-SHA1: b45f2e2f041335379452b50664518359c8990ea1
-SHA256: b8d6c236e509ed77c12f2666519df6d24bd2d88374feceac6836aff84600a6a6
+Size: 1677816
+MD5sum: 8f7098235953f58edd76ec1aeb0f87d4
+SHA1: 9536b0854c6002d30cf98d92313bdb1a7f63f4b7
+SHA256: f4a691dcabd8d864d118971fc6b6bc706b4f6b0f8ac9b527ff5173a9bb4cd3d2
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
