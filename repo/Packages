@@ -33,15 +33,15 @@ Name: Rootless Theos Installer
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
 
 Package: tsumtsum
-Version: 12.6.0
+Version: 12.6.1
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6208
-Filename: debs/tsumtsum_12.6.0_iphoneos-arm64.deb
-Size: 1382960
-MD5sum: a9338a933e772fd0dea0adbc4618ac15
-SHA1: 95e8915d26daa27800ccea241868c879e183d71a
-SHA256: 9bd0f509ae09c26e7eb653ccb178ab2ae3e224e4d6c71dc1b6baec3cd6ee09cf
+Filename: debs/tsumtsum_12.6.1_iphoneos-arm64.deb
+Size: 1380824
+MD5sum: f6496b20080d55eeae24a625d1bb8fec
+SHA1: 577f2141356fbaacb339cf8860fd3f651eb4954a
+SHA256: f439abc78c895ced2d0d52cbdea71186e4677a0b7d82de531d1da636afc13c01
 Section: Tweaks
 Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
@@ -50,15 +50,15 @@ Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
 Package: tsumtsum.glass
-Version: 12.6.0
+Version: 12.6.1
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6596
-Filename: debs/tsumtsum.glass_12.6.0_iphoneos-arm64.deb
-Size: 1678882
-MD5sum: 707e1fa3392bbd2382888a1451724d22
-SHA1: 9894a2d20d7f2c45301876541eee4517d9b7f89e
-SHA256: 63d871f7d3eeb4f0c44f3c71c1b767fd3a0d3283e8d95ddacc61601200cd312b
+Filename: debs/tsumtsum.glass_12.6.1_iphoneos-arm64.deb
+Size: 1680728
+MD5sum: e6430513f7c3926046fb3f75edf0c95a
+SHA1: 4fdbfa32a9043540b2e98d4ff051a544eb5aa74c
+SHA256: 36043b7b321fe5a86f609b2e89b4b0764a0604c6d1799eb85104d11ea587359f
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
@@ -67,16 +67,16 @@ Name: TsumTsum GLASS MODMENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
 
 Package: tsumtsum.rainbow
-Version: 12.6.0
+Version: 12.6.1
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6192
 Depends: mobilesubstrate
-Filename: debs/tsumtsum.rainbow_12.6.0_iphoneos-arm64.deb
-Size: 1376658
-MD5sum: dc591255b8b14bf83491f59c87e56f0f
-SHA1: aaac60ef5edc88fd33447ab80b824ed765110ad9
-SHA256: 5d902a575870470332bd2632013ec2c99849b9c2f699c44006dfdcad169650a1
+Filename: debs/tsumtsum.rainbow_12.6.1_iphoneos-arm64.deb
+Size: 1376058
+MD5sum: 27fcdbf1613491ab4026160661b84669
+SHA1: 5f733d7cf93932071962bafc7908a79fe5cf844f
+SHA256: c057b0361be0e29ef1b78684b414610db5de9052ccea0ed92442dc7cc5b780d0
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
