@@ -66,6 +66,23 @@ Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum GLASS MODMENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
 
+Package: tsumtsum.glasscherry
+Version: 12.6.1
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 7544
+Filename: debs/tsumtsum.glasscherry_12.6.1_iphoneos-arm64.deb
+Size: 2639042
+MD5sum: 0a031ba219fc23902dd583b5795bb492
+SHA1: 040016466885b40034c89f86c96445717f9d5626
+SHA256: f0ea8d10c75e592cb2104d1dd0f75ea2215d5a3d371a53c0ba7f6d75aebd99bf
+Section: Tweaks
+Description: すべてのルートレスデバイスと互換性があります。
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: TsumTsum AuroraGlassCherry
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/cherry.json
+
 Package: tsumtsum.rainbow
 Version: 12.6.1
 Architecture: iphoneos-arm64
