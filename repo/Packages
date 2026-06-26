@@ -33,15 +33,15 @@ Name: Rootless Theos Installer
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
 
 Package: tsumtsum
-Version: 12.6.1
+Version: 12.7.0
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6208
-Filename: debs/tsumtsum_12.6.1_iphoneos-arm64.deb
-Size: 1380824
-MD5sum: f6496b20080d55eeae24a625d1bb8fec
-SHA1: 577f2141356fbaacb339cf8860fd3f651eb4954a
-SHA256: f439abc78c895ced2d0d52cbdea71186e4677a0b7d82de531d1da636afc13c01
+Filename: debs/tsumtsum_12.7.0_iphoneos-arm64.deb
+Size: 1380164
+MD5sum: 09048764508c4b0385c51e68c9ec35ca
+SHA1: c5873a355447b064c6255c29655acf8ff1586199
+SHA256: 4c17240f89da60dfe054932cc9c6cb63884712c020329cee42054a34e4a97a25
 Section: Tweaks
 Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
