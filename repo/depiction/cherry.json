@@ -54,7 +54,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### パッケージ情報\n- **Package**: TsumTsum.GlassCherry\n- **Version**: 12.6.1\n- **Author**: moco\n- **Section**: Tweaks"
+          "markdown": "### パッケージ情報\n- **Package**: TsumTsum.GlassCherry\n- **Version**: 12.7.0\n- **Author**: moco\n- **Section**: Tweaks"
         }
       ]
     }
