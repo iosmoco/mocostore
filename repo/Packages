@@ -67,32 +67,15 @@ Name: TsumTsum GLASS MODMENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/glass.json
 
 Package: tsumtsum.glasscherry
-Version: 12.6.1
-Architecture: iphoneos-arm64
-Maintainer: moco
-Installed-Size: 7544
-Filename: debs/tsumtsum.glasscherry_12.6.1_iphoneos-arm64.deb
-Size: 2639042
-MD5sum: 0a031ba219fc23902dd583b5795bb492
-SHA1: 040016466885b40034c89f86c96445717f9d5626
-SHA256: f0ea8d10c75e592cb2104d1dd0f75ea2215d5a3d371a53c0ba7f6d75aebd99bf
-Section: Tweaks
-Description: すべてのルートレスデバイスと互換性があります。
-Author: moco
-Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
-Name: TsumTsum AuroraGlassCherry
-SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/cherry.json
-
-Package: tsumtsum.glasscherry
 Version: 12.7.0
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 7544
 Filename: debs/tsumtsum.glasscherry_12.7.0_iphoneos-arm64.deb
-Size: 2639058
-MD5sum: 1a12a9a979b1032f73a0e02655a8affa
-SHA1: 5a8b62bb8f9c0c5cff97b0d9e2e4492285ffe3e3
-SHA256: 6dafe530ab2b9c63496138946e4c15106de6677fdab611a69d3a2af8aa46a406
+Size: 2640732
+MD5sum: a824c32ecae5909daf34714e595cda88
+SHA1: 05fe3bc63de12fa1a505d8d00d14e71d273484d6
+SHA256: 2ba85802da4d8d81d6751c50600616a6b66035af9c152ea3536c8947c51c08f7
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
