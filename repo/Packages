@@ -81,15 +81,15 @@ Author: moco
 Name: TsumTsum Glass Champagne
 
 Package: tsumtsum.glasscherry
-Version: 12.7.0
+Version: 12.8.1
 Architecture: iphoneos-arm64
 Maintainer: moco
-Installed-Size: 7544
-Filename: debs/tsumtsum.glasscherry_12.7.0_iphoneos-arm64.deb
-Size: 2642392
-MD5sum: 555a281c774fcda6776941eb4ad0ef1c
-SHA1: c9545b46b232a320766431f1630435a6cdfd4eff
-SHA256: a37b6fe3fd7a0c61341dfac859fe7c11acffde5895700fc406e4cac07959c109
+Installed-Size: 7560
+Filename: debs/tsumtsum.glasscherry_12.8.1_iphoneos-arm64.deb
+Size: 2640956
+MD5sum: 918c0095e8359b757b0ec85a4a6b616e
+SHA1: 42c49080a843460b35b505c7011f470940d06a56
+SHA256: ed454ea25b0c4afb2b35204414f388a33047a10eefd10459fc848c07d692da49
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
