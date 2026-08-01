@@ -86,13 +86,13 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 7544
 Filename: debs/tsumtsum.glasscherry_12.8.1_iphoneos-arm64.deb
-Size: 2641022
-MD5sum: 4cf8f0a9abe79d93348c4f475739bea0
-SHA1: 7c1d45feedba69d254c0799e53b9d6708911b7f2
-SHA256: fd74512bc3eebf546525e731cdf29b7ee6ab82152ff0c9d8cd83c84135d1bfda
+Size: 2643940
+MD5sum: 26883390ce9dae3c87a12c753135bf8e
+SHA1: 10bc3ec1b753dcde3cbbbf6169149b04ff22c781
+SHA256: de453ab1ecf5f680c9430e636348e886cdfba0033268e5dc6dea568af58ee672
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
 Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
-Name: TsumTsum AuroraGlassCherry
+Name: TsumTsum Glass Cherry
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/cherry.json
