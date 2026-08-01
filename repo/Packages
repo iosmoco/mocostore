@@ -86,10 +86,10 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 7544
 Filename: debs/tsumtsum.glasscherry_12.8.1_iphoneos-arm64.deb
-Size: 2641598
-MD5sum: 653c68b1d46b22a034a1f22de22ae0be
-SHA1: 071b4040584bef6cd7d6fc2218c6dcd954c05d1a
-SHA256: 163c534dab15ab373da0a03bc781c23c32c7992f79ce9329672d9606b03b63a9
+Size: 2641022
+MD5sum: 4cf8f0a9abe79d93348c4f475739bea0
+SHA1: 7c1d45feedba69d254c0799e53b9d6708911b7f2
+SHA256: fd74512bc3eebf546525e731cdf29b7ee6ab82152ff0c9d8cd83c84135d1bfda
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
