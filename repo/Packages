@@ -36,17 +36,19 @@ Package: offsetflux
 Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: moco
-Installed-Size: 10204
+Installed-Size: 10220
 Depends: mobilesubstrate
 Filename: debs/offsetflux_1.0.1_iphoneos-arm64.deb
-Size: 4051832
-MD5sum: 91ba0a5c1b362b77b92475158b9b716f
-SHA1: ed4bb997cf28350ce5352bd5b437abaee4f299ea
-SHA256: 0d7b6f16b9545641bf4d85ed090d10820f09a63d11ca697f0d698e93ac373157
+Size: 4055670
+MD5sum: d97b6252c7f9af01fb3e9317773d030a
+SHA1: cd52c088589c0525a437e2bb77363753acae7e1f
+SHA256: f4ab10d03f0a28637af5cd2e3775fc1f4ca47a6432c06c127bb5a4d0cd6b5c83
 Section: Tweaks
 Description: アドレスやHEXを変更して色々試してみることができます。
 Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: Address Patcher
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/addresspatcher.json
 
 Package: tsumtsum
 Version: 12.7.0

@@ -1,0 +1,111 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/addresspatcher_banner.png",
+  "tintColor": "#D4A84F",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "詳細",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "# Address Patcher\n\n任意の Offset / HEX を入力して、アプリ上から PATCH / RESTORE を行えるシンプルなパッチ管理ツールです。\n\n通常の1か所PATCHだけでなく、複数の Offset / HEX を1つのSlotにまとめて一括ON / OFFできるグループPATCHにも対応しています。"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/addresspatcher_1.png",
+              "accessibilityText": "Address Patcher screenshot 1"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/addresspatcher_2.png",
+              "accessibilityText": "Address Patcher screenshot 2"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/addresspatcher_3.png",
+              "accessibilityText": "Address Patcher screenshot 3"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## 使い方\n\n1. Address Patcher をインストール\n2. 対応アプリを起動\n3. 各Slotへ Switch Name / Offset / HEX を入力\n4. OFFボタンをタップしてPATCH\n5. ONボタンをタップすると元HEXへRESTORE\n\n## Import\n\n右上の `Import` から iPhone標準のファイル選択画面を開き、iCloud Driveなどに保存した `.txt` を読み込めます。\n\n読み込んだ項目は Slot1〜Slot5 の任意のSlotへ登録できます。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "主な機能",
+          "useMargins": true,
+          "useBottomMargin": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": false,
+          "markdown": "- Switch Name / Offset / HEX の保存\n- Slot1〜Slot5 の独立管理\n- PATCH / RESTORE\n- アプリ再起動後はOFF状態で起動\n- iCloud Drive / Files から `.txt` Import\n- Importした項目を任意Slotへ登録\n- 通常の1か所PATCHに対応\n- 複数Offset / HEXのグループPATCHに対応\n- MADD / code cave など複数箇所を1Slotで一括ON / OFF\n- 複数PATCHをまとめて元HEXへRESTORE"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Import用 txt 書式",
+          "useMargins": true,
+          "useBottomMargin": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": false,
+          "markdown": "### 通常PATCH\n\n```text\nName=サンプル機能\nOffset=100123ABC\nHEX=11223344\n```\n\n### 複数PATCH\n\n```text\nName=MADD サンプル x51\nOffset=100234ABC\nHEX=A1B2C3D4\nOffset=101345AB0\nHEX=55667788\nOffset=101345AB4\nHEX=99AABBCC\nOffset=101345AB8\nHEX=DDEEFF00\n```\n\n同じ Name 内に複数の Offset / HEX を記述すると、1つのSlot内でまとめて管理されます。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "パッケージ名",
+          "text": "Address Patcher"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "対応",
+          "text": "Rootless Jailbreak"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作成者",
+          "text": "moco"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新履歴",
+      "views": [
+        {
+          "class": "DepictionTableTextView",
+          "title": "1.0.1",
+          "text": "Initial Release"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": false,
+          "markdown": "- Address Patcher 初回リリース\n- Slot1〜Slot5 に対応\n- 任意 Offset / HEX のPATCH / RESTORE\n- Switch Name / Offset / HEX の保存に対応\n- Files / iCloud Drive からの `.txt` Importに対応\n- 通常PATCHと複数PATCHの混在に対応\n- MADD / code cave など複数Offset / HEXを1Slotで一括ON / OFF可能"
+        }
+      ]
+    }
+  ]
+}
