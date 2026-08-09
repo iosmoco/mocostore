@@ -97,7 +97,7 @@
       "views": [
         {
           "class": "DepictionTableTextView",
-          "title": "1.0.1",
+          "title": "1.0.2",
           "text": "Initial Release"
         },
         {

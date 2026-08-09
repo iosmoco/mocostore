@@ -50,6 +50,24 @@ Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: Address Patcher
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/addresspatcher.json
 
+Package: offsetflux
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 10220
+Depends: mobilesubstrate
+Filename: debs/offsetflux_1.0.2_iphoneos-arm64.deb
+Size: 4058518
+MD5sum: 5f041f19a048752dd0d97116e83d3e41
+SHA1: c5e20f22745a66505a9a9fcf412cf880419fea8c
+SHA256: f5d490ef20325b0d8557c0880bc5c183d04c5b802aef24b2ae7ad41cbcac8ffd
+Section: Tweaks
+Description: アドレスやHEXを変更して色々試してみることができます。
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: Address Patcher
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/addresspatcher.json
+
 Package: tsumtsum
 Version: 12.7.0
 Architecture: iphoneos-arm64
