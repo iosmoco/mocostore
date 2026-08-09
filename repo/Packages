@@ -33,24 +33,6 @@ Name: Rootless Theos Installer
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
 
 Package: offsetflux
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: moco
-Installed-Size: 10220
-Depends: mobilesubstrate
-Filename: debs/offsetflux_1.0.1_iphoneos-arm64.deb
-Size: 4058108
-MD5sum: f67b7eda117ee910060054f297fa37c2
-SHA1: 27f33c8d9654c75172ab67a3c5280bf53ddc4618
-SHA256: 13bebbde47f5077da1b199b7320f8e7154f82b4475d82e62a5192d53bdb5315f
-Section: Tweaks
-Description: アドレスやHEXを変更して色々試してみることができます。
-Author: moco
-Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
-Name: Address Patcher
-SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/addresspatcher.json
-
-Package: offsetflux
 Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: moco
