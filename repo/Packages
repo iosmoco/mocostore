@@ -39,10 +39,10 @@ Maintainer: moco
 Installed-Size: 10220
 Depends: mobilesubstrate
 Filename: debs/offsetflux_1.0.1_iphoneos-arm64.deb
-Size: 4055670
-MD5sum: d97b6252c7f9af01fb3e9317773d030a
-SHA1: cd52c088589c0525a437e2bb77363753acae7e1f
-SHA256: f4ab10d03f0a28637af5cd2e3775fc1f4ca47a6432c06c127bb5a4d0cd6b5c83
+Size: 4060024
+MD5sum: 3acb31036f68c01df30cd2e8ab00126c
+SHA1: b9631ec40ef02335db3773c02b9f028a55ecd416
+SHA256: fe407dc7d592cfd2d5f1c90e353799213246558f6a4bca2f5ed6fe5f1133ae19
 Section: Tweaks
 Description: アドレスやHEXを変更して色々試してみることができます。
 Author: moco
