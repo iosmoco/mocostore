@@ -97,13 +97,13 @@
       "views": [
         {
           "class": "DepictionTableTextView",
-          "title": "1.0.2",
+          "title": "1.0.3",
           "text": "Initial Release"
         },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": false,
-          "markdown": "- Address Patcher 初回リリース\n- Slot1〜Slot5 に対応\n- 任意 Offset / HEX のPATCH / RESTORE\n- Switch Name / Offset / HEX の保存に対応\n- Files / iCloud Drive からの `.txt` Importに対応\n- 通常PATCHと複数PATCHの混在に対応\n- MADD / code cave など複数Offset / HEXを1Slotで一括ON / OFF可能"
+          "markdown": "- Address Patcher 更新リリース\n- Slot1〜Slot5 に対応\n- 任意 Offset / HEX のPATCH / RESTORE\n- Switch Name / Offset / HEX の保存に対応\n- Files / iCloud Drive からの `.txt` Importに対応\n- 通常PATCHと複数PATCHの混在に対応\n- MADD / code cave など複数Offset / HEXを1Slotで一括ON / OFF可能"
         }
       ]
     }
