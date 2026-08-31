@@ -51,15 +51,15 @@ Name: Address Patcher
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/addresspatcher.json
 
 Package: tsumtsum
-Version: 12.9.0
+Version: 12.9.2
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6208
-Filename: debs/tsumtsum_12.9.0_iphoneos-arm64.deb
-Size: 1380280
-MD5sum: 9d9e705594258682c77f90f64f7697a2
-SHA1: 7174862eced064c9543c80dfc0c96a601f6aeb03
-SHA256: 0448f587ec0dd8c407f1a8fac53e7c7a9fd1630a569c13a778dd7ba968be79fe
+Filename: debs/tsumtsum_12.9.2_iphoneos-arm64.deb
+Size: 1380726
+MD5sum: 2d833ce4327ca888c4a7f5e3bc0dbd03
+SHA1: c615af7733c47afeda9131c36aeb4bbbc7973557
+SHA256: 3ba3d77d5db29d022dab75dbe7760221065ced0bb09b4d8d2adeb9a2e11cae6d
 Section: Tweaks
 Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
@@ -68,15 +68,15 @@ Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
 Package: tsumtsum.glasschampagne
-Version: 12.9.0
+Version: 12.9.2
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 11460
-Filename: debs/tsumtsum.glasschampagne_12.9.0_iphoneos-arm64.deb
-Size: 6659486
-MD5sum: 6e2507d272bd318bb7b0f0676f425b24
-SHA1: a3781a9f9c6be23dd49e49048d59611477585f0a
-SHA256: bdda02f48756b38d68ee477c3ff8e291f85c9c22fb57febff22fb95347b35407
+Filename: debs/tsumtsum.glasschampagne_12.9.2_iphoneos-arm64.deb
+Size: 6660042
+MD5sum: a443749cc2dcc7b7bdfd68b9666c2a2c
+SHA1: 07e7c7322de28f91a15ac8450b4c0ba985ff63d4
+SHA256: 444f1581ab03ad0a55311e37c800ce1f91e85c41432e6c1d8fddf3a9fc2f2099
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
@@ -85,15 +85,15 @@ Name: TsumTsum Glass Champagne
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/champagne.json
 
 Package: tsumtsum.glasscherry
-Version: 12.9.0
+Version: 12.9.2
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 7544
-Filename: debs/tsumtsum.glasscherry_12.9.0_iphoneos-arm64.deb
-Size: 2639080
-MD5sum: deaa926d886c057b906aebbbf47326f5
-SHA1: 6d6bcf9771e8e8ea2e2ae8ae43352cc83b676b55
-SHA256: 07c3c804c35fe2533a8ce58ba49d9ad7de1c3277bf1efa36858444f88329082b
+Filename: debs/tsumtsum.glasscherry_12.9.2_iphoneos-arm64.deb
+Size: 2641568
+MD5sum: 73cfca6a45cddd1666c2792ebbbc688d
+SHA1: 9c0087636c392e96f12dec93bfe2a37f55e2ab71
+SHA256: 3f70306fd99db69242663e5bf56e0ec1c14da5cef9f15e198bea2f7bcbb62608
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
