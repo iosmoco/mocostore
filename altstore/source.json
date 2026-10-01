@@ -33,7 +33,24 @@
           "NSPhotoLibraryUsageDescription": "記念の画像を保存するためにカメラロールにアクセスします",
           "NSPhotoLibraryAddUsageDescription": "記念の画像を保存するためにカメラロールにアクセスします"
         }
-      }
+      },
+      "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/screenshots/Non-JB-Tsum-01.png",
+          "width": 750,
+          "height": 1334
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/screenshots/Non-JB-Tsum-02.png",
+          "width": 750,
+          "height": 1334
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/screenshots/Non-JB-Tsum-03.png",
+          "width": 750,
+          "height": 1334
+        }
+      ]
     }
   ],
   "news": []
