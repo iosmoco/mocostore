@@ -1,0 +1,40 @@
+{
+  "name": "mocoStore",
+  "subtitle": "mocoStore AltStore Source",
+  "description": "Apps distributed through mocoStore for AltStore Classic.",
+  "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum.png",
+  "apps": [
+    {
+      "name": "Non-JBツム",
+      "bundleIdentifier": "com.linecorp.LGTMTM",
+      "developerName": "moco",
+      "subtitle": "Non-JBツム",
+      "localizedDescription": "Non-JBツム for AltStore Classic.",
+      "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum.png",
+      "category": "games",
+      "versions": [
+        {
+          "version": "12.10.1",
+          "buildVersion": "12.10.1",
+          "date": "2026-10-01",
+          "localizedDescription": "Initial AltStore release.",
+          "downloadURL": "https://github.com/iosmoco/mocostore/releases/download/altstore-tsum-12.10.1/Non_JB._12.10.1_Remove_LIAPP_Alert.ipa",
+          "size": 45915424,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSUserTrackingUsageDescription": "許可することで、表示される広告が最適化されます。",
+          "NSPhotoLibraryUsageDescription": "記念の画像を保存するためにカメラロールにアクセスします",
+          "NSPhotoLibraryAddUsageDescription": "記念の画像を保存するためにカメラロールにアクセスします"
+        }
+      }
+    }
+  ],
+  "news": []
+}

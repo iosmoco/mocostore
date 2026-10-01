@@ -1,1 +1,5 @@
 .DS_Store
+
+# AltStore local files
+altstore/*.ipa
+altstore/.DS_Store
