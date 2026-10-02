@@ -11,6 +11,7 @@
       "subtitle": "Non-JBツム",
       "localizedDescription": "Non-JBツム for AltStore Classic.",
       "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.10.1.png",
+      "tintColor": "#D9394E",
       "category": "games",
       "versions": [
         {
