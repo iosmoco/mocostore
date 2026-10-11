@@ -51,6 +51,25 @@ Icon: https://iosmoco.github.io/mocostore/repo/images/siriscape_icon.png
 Name: SiriScape
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/siriscape.json
 
+Package: com.moco.siriscape
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 13560
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.moco.siriscape_0.0.6_iphoneos-arm64.deb
+Size: 13306238
+MD5sum: 8f7e73a3044489436a1d6b5aa1eb0c06
+SHA1: 2ae363e7a5b1f84f12f6d1eaadd338fa1ac743d1
+SHA256: 20f0fed61850978bdaa7f5ae8c47d455d681b4933a25e60186ebbd5c42096e7f
+Section: Tweaks
+Description: Siri用のカスタムアニメーション背景
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Icon: https://iosmoco.github.io/mocostore/repo/images/siriscape_icon.png
+Name: SiriScape
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/siriscape.json
+
 Package: offsetflux
 Version: 1.0.3
 Architecture: iphoneos-arm64

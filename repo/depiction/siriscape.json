@@ -109,6 +109,16 @@
       "views": [
         {
           "class": "DepictionTableTextView",
+          "title": "0.0.6",
+          "text": "Red Commandプリセットの改善"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": false,
+          "markdown": "**SiriScape v0.0.6**\n\n- Red Commandプリセットのアニメーションを修正\n- GIFの表示品質を改善"
+        },
+        {
+          "class": "DepictionTableTextView",
           "title": "0.0.5",
           "text": "初回正式リリース"
         },
