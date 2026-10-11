@@ -89,7 +89,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "バージョン",
-          "text": "0.0.5"
+          "text": "0.0.6"
         },
         {
           "class": "DepictionTableTextView",
@@ -110,7 +110,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "0.0.6",
-          "text": "Red Commandプリセットの改善"
+          "text": "GIF修正"
         },
         {
           "class": "DepictionMarkdownView",
