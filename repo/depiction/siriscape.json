@@ -1,0 +1,123 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://iosmoco.github.io/mocostore/repo/images/siriscape_banner.png",
+  "tintColor": "#42C9FF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "詳細",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "# SiriScape\n\n**Make Siri your own.** ✦\n\nSiriの背景を、美しい静止画やアニメーションGIFで自由にカスタマイズ。Siriを呼び出すたびに、いつもの画面が自分だけの空間へ変わります。\n\nPersonalize Siri with beautiful still images and animated GIFs. Transform Siri’s background into a space that feels uniquely yours."
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/siriscape_1.png",
+              "accessibilityText": "SiriScape screenshot 1"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/siriscape_2.png",
+              "accessibilityText": "SiriScape screenshot 2"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/siriscape_3.png",
+              "accessibilityText": "SiriScape screenshot 3"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "主な機能 / Features",
+          "useMargins": true,
+          "useBottomMargin": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "**✦ Animated Backgrounds**\n\nJPG・PNG・GIFに対応。アニメーションGIFをSiriの背景として表示できます。\n\nSupports JPG, PNG, and animated GIF backgrounds.\n\n**✦ Signature Presets**\n\n3種類のアニメーションプリセットを収録。\n\nThree included animated presets:\n\n- **Red Hologram** — 赤く輝くホログラム / Glowing red hologram\n- **Red Command** — レッド系のコマンド演出 / Red command-inspired visuals\n- **Blue Guardian** — ブルー系のガーディアン演出 / Blue guardian-inspired visuals\n\n**✦ Your Image, Your Siri**\n\n好きな画像を選択して、カスタム背景に設定できます。\n\nChoose your own image as a custom Siri background.\n\n**✦ Fine-Tuned Appearance**\n\n**Aspect Fill / Aspect Fit** と不透明度の調整に対応。\n\nAdjust image scaling (Aspect Fill / Aspect Fit) and opacity."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "使い方 / How to Use",
+          "useMargins": true,
+          "useBottomMargin": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "1. SiriScapeをインストール / Install SiriScape.\n2. 「設定」から **SiriScape** を開く / Open **SiriScape** in Settings.\n3. 背景プリセット、またはカスタム画像を選択 / Select a preset or a custom image.\n4. 必要に応じて表示方法と不透明度を調整 / Adjust scaling and opacity as desired.\n5. Siriを起動して背景を楽しむ / Invoke Siri to see your background."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "対応環境 / Compatibility",
+          "useMargins": true,
+          "useBottomMargin": true,
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "**Dopamine Rootless Jailbreak** 向けに開発。\n\nDesigned for **Dopamine Rootless Jailbreak**.\n\n**実機動作確認済み / Tested Devices**\n\n- iPhone X — iOS 16.4\n- iPhone 14 Pro\n\n※ 上記以外の機種・iOSバージョンは動作未検証です。\n\nOther devices and iOS versions have not been verified."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "パッケージ / Package",
+          "text": "SiriScape"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "バージョン / Version",
+          "text": "0.0.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "対応 / Support",
+          "text": "Rootless Jailbreak"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作成者 / Developer",
+          "text": "moco"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新履歴",
+      "views": [
+        {
+          "class": "DepictionTableTextView",
+          "title": "0.0.5",
+          "text": "Initial Release / 初回正式リリース"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": false,
+          "markdown": "**SiriScape v0.0.5**\n\n- Siri背景のカスタマイズに対応 / Customizable Siri backgrounds\n- JPG・PNG・アニメーションGIFに対応 / JPG, PNG, and animated GIF support\n- Red Hologram / Red Command / Blue Guardian の3プリセットを収録 / Three included animated presets\n- カスタム画像の選択に対応 / Custom image selection\n- Aspect Fill / Aspect Fit と不透明度調整 / Scaling modes and opacity adjustment\n- iPhone X・iPhone 14 Proで実機確認 / Tested on iPhone X and iPhone 14 Pro"
+        }
+      ]
+    }
+  ]
+}

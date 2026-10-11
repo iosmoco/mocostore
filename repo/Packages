@@ -32,6 +32,24 @@ Author: moco
 Name: Rootless Theos Installer
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/theos.json
 
+Package: com.moco.siriscape
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 12748
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.moco.siriscape_0.0.5_iphoneos-arm64.deb
+Size: 12512844
+MD5sum: 1cb9445356b843fc8ca8410b1bfb22bf
+SHA1: fd2f16853484b9a29f7fcd3de6adacf60f2eda2b
+SHA256: 35fcc2bf63675f4958797e4f17f0ee81fbcbabfed3e56689d00963899595e9e3
+Section: Tweaks
+Description: Siri用のカスタムアニメーション背景
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: SiriScape
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/SiriScape.json
+
 Package: offsetflux
 Version: 1.0.3
 Architecture: iphoneos-arm64
