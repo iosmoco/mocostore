@@ -36,13 +36,13 @@ Package: com.moco.siriscape
 Version: 0.0.5
 Architecture: iphoneos-arm64
 Maintainer: moco
-Installed-Size: 12748
+Installed-Size: 12700
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.moco.siriscape_0.0.5_iphoneos-arm64.deb
-Size: 12512952
-MD5sum: 8893c922585bf794ebd8c1150b521390
-SHA1: 1947adc248546911e7ddbb180cf3dd35fec6d2ea
-SHA256: 1ecbe0ea75c633579b4f4d04be44f4ec9a1a6a8089171f20242a9c014b134cb6
+Size: 12433804
+MD5sum: c5480b8f22dc81929d26850ff51eed0d
+SHA1: bc14f912e49ab25b5153e3f50d93b8c98deab806
+SHA256: 9dd84c6e43aca29fb667b11e070d7f2ada30a2a75306750226736481d25011cd
 Section: Tweaks
 Description: Siri用のカスタムアニメーション背景
 Author: moco
