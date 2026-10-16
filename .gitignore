@@ -3,3 +3,6 @@
 # AltStore local files
 altstore/*.ipa
 altstore/.DS_Store
+
+# AltStore personal notes
+altstore/*.txt
