@@ -2,7 +2,7 @@
   "name": "mocoStore",
   "subtitle": "mocoStore AltStore Source",
   "description": "Apps distributed through mocoStore for AltStore Classic.",
-  "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.10.1.png",
+  "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.10.3.png",
   "apps": [
     {
       "name": "Non-JBツム",
@@ -10,10 +10,19 @@
       "developerName": "moco",
       "subtitle": "Non-JBツム",
       "localizedDescription": "Non-JBツム for AltStore Classic.",
-      "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.10.1.png",
+      "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.10.3.png",
       "tintColor": "#D9394E",
       "category": "games",
       "versions": [
+        {
+          "version": "12.10.3",
+          "buildVersion": "12.10.3",
+          "date": "2026-10-16",
+          "localizedDescription": "Update to 12.10.3.",
+          "downloadURL": "https://github.com/iosmoco/mocostore/releases/download/altstore-tsum-12.10.3/Non_JB._12.10.3_Remove_LIAPP_Alert.ipa",
+          "size": 45916443,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "12.10.1",
           "buildVersion": "12.10.1",
