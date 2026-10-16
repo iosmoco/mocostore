@@ -29,16 +29,29 @@ info() {
 # Argument
 # ------------------------------------------------------------
 
-if [ $# -ne 1 ]; then
-    echo "Usage:"
-    echo "  $0 <IPA file>"
-    echo
-    echo "Example:"
-    echo "  $0 \"altstore/Non_JBツム_12.10.2_Remove_LIAPP_Alert.ipa\""
-    exit 1
+if [ $# -gt 1 ]; then
+    die "Too many arguments. Specify one IPA file or omit the argument."
 fi
 
-IPA="$1"
+if [ $# -eq 1 ]; then
+    IPA="$1"
+else
+    # Automatically select an IPA only when exactly one exists.
+    shopt -s nullglob
+    IPA_FILES=(altstore/*.ipa)
+    shopt -u nullglob
+
+    if [ ${#IPA_FILES[@]} -eq 0 ]; then
+        die "No IPA files found in altstore/."
+    elif [ ${#IPA_FILES[@]} -gt 1 ]; then
+        echo "Multiple IPA files found:"
+        printf '  %s\n' "${IPA_FILES[@]}"
+        die "Specify the IPA file explicitly."
+    fi
+
+    IPA="${IPA_FILES[0]}"
+    info "Automatically selected IPA: $IPA"
+fi
 
 [ -f "$IPA" ] || die "IPA not found: $IPA"
 [ -f "$SOURCE_JSON" ] || die "source.json not found: $SOURCE_JSON"
