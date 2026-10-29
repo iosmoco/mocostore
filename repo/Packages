@@ -86,6 +86,23 @@ Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
 
+Package: tsumtsum
+Version: 12.11.0
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 6208
+Filename: debs/tsumtsum_12.11.0_iphoneos-arm64.deb
+Size: 1381794
+MD5sum: d8618be4c98b15cd65713eb6f3b4181c
+SHA1: b6601ae06231f3fcddc62725a19ef8bf168bf892
+SHA256: e450f24e4839a6115c38c4d8b27ba8782a21bc5f2df9b9f54fcbd1eca52f14ef
+Section: Tweaks
+Description: 全てのルートレスデバイスと互換性があります。
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: TsumTsum M0C0 MENU
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
+
 Package: tsumtsum.glasschampagne
 Version: 12.10.3
 Architecture: iphoneos-arm64
@@ -103,6 +120,23 @@ Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum Glass Champagne
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/champagne.json
 
+Package: tsumtsum.glasschampagne
+Version: 12.11.0
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 11460
+Filename: debs/tsumtsum.glasschampagne_12.11.0_iphoneos-arm64.deb
+Size: 6659680
+MD5sum: cc5783d21010cc9cfa780578da6aa113
+SHA1: 20a310787e88b6cd5c36fc3a64039cebe319241d
+SHA256: ed318d3996aae179f51bbfddfd16f72c336903e4e90976cff95b46c76789c9d8
+Section: Tweaks
+Description: すべてのルートレスデバイスと互換性があります。
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: TsumTsum Glass Champagne
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/champagne.json
+
 Package: tsumtsum.glasscherry
 Version: 12.10.3
 Architecture: iphoneos-arm64
@@ -113,6 +147,23 @@ Size: 2642686
 MD5sum: 39183c5b0cb106e084c8e358f6f52a92
 SHA1: a174e21168f4310e41c92b2de446e81cf59c5c00
 SHA256: e7b3d0f8f5b74060bce46c236b1d6e0da4a4cf0d05fb771e5884547f3fe758fa
+Section: Tweaks
+Description: すべてのルートレスデバイスと互換性があります。
+Author: moco
+Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
+Name: TsumTsum Glass Cherry
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/cherry.json
+
+Package: tsumtsum.glasscherry
+Version: 12.11.0
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 7544
+Filename: debs/tsumtsum.glasscherry_12.11.0_iphoneos-arm64.deb
+Size: 2642622
+MD5sum: 0fe8d24270de5d137d40ee746f4ae304
+SHA1: 008a340673b4fb1de40126d3a76c0936012322a8
+SHA256: 17143bf569f5c56df1b44845705183b0ef23344a1cacdf2b3ec1b82796df2578
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
