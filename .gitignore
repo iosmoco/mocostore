@@ -2,6 +2,8 @@
 
 # AltStore local files
 altstore/*.ipa
+# Completed IPA copies placed at the repository root by IPA Integration Studio.
+/*.ipa
 altstore/.DS_Store
 
 # AltStore personal notes
