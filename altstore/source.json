@@ -2,7 +2,7 @@
   "name": "mocoStore",
   "subtitle": "mocoStore AltStore Source",
   "description": "Apps distributed through mocoStore for AltStore Classic.",
-  "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.11.0.png",
+  "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.12.0.png",
   "apps": [
     {
       "name": "Non-JBツム",
@@ -10,10 +10,19 @@
       "developerName": "moco",
       "subtitle": "Non-JBツム",
       "localizedDescription": "Non-JBツム for AltStore Classic.",
-      "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.11.0.png",
+      "iconURL": "https://raw.githubusercontent.com/iosmoco/mocostore/main/altstore/images/Non-JB-Tsum-12.12.0.png",
       "tintColor": "#D9394E",
       "category": "games",
       "versions": [
+        {
+          "version": "12.12.0",
+          "buildVersion": "12.12.0",
+          "date": "2026-11-26",
+          "localizedDescription": "Update to 12.12.0.",
+          "downloadURL": "https://github.com/iosmoco/mocostore/releases/download/altstore-tsum-12.12.0/Non-JB.-12.12.0-Integrated.ipa",
+          "size": 47019359,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "12.11.0",
           "buildVersion": "12.11.0",
