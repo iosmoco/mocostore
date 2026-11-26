@@ -257,7 +257,17 @@ info "New icon extracted."
 echo
 echo "Creating GitHub Release..."
 
-if ! gh release create "$TAG" "$IPA" \
+PUBLISH_BASENAME="Non-JB-${VERSION}-Integrated.ipa"
+PUBLISH_IPA="${TMPDIR_WORK}/${PUBLISH_BASENAME}"
+
+cp "$IPA" "$PUBLISH_IPA"
+
+[ "$(stat -f%z "$PUBLISH_IPA")" = "$SIZE" ] ||
+    die "Published IPA copy size mismatch."
+
+info "Published IPA name: $PUBLISH_BASENAME"
+
+if ! gh release create "$TAG" "$PUBLISH_IPA" \
     --repo "$REPO" \
     --title "Non-JBツム $VERSION" \
     --notes "AltStore release $VERSION"; then
@@ -272,13 +282,23 @@ info "Release created: $TAG"
 # Obtain ACTUAL GitHub asset URL
 # ------------------------------------------------------------
 
-IPA_BASENAME="$(basename "$IPA")"
+IPA_BASENAME="$PUBLISH_BASENAME"
 
 ASSET_URL="$(
     gh release view "$TAG" \
         --repo "$REPO" \
-        --json assets \
-        --jq '.assets[0].url'
+        --json assets |
+    PUBLISH_BASENAME="$PUBLISH_BASENAME" python3 -c '
+import json
+import os
+import sys
+
+assets = json.load(sys.stdin)["assets"]
+name = os.environ["PUBLISH_BASENAME"]
+matches = [a["url"] for a in assets if a["name"] == name]
+
+print(matches[0] if len(matches) == 1 else "")
+'
 )"
 
 if [ -z "$ASSET_URL" ] || [ "$ASSET_URL" = "null" ]; then
