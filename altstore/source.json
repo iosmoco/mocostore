@@ -54,7 +54,9 @@
       "appPermissions": {
         "entitlements": [
           "get-task-allow",
-          "keychain-access-groups"
+          "keychain-access-groups",
+          "com.apple.developer.associated-domains",
+          "aps-environment"
         ],
         "privacy": {
           "NSUserTrackingUsageDescription": "許可することで、表示される広告が最適化されます。",
