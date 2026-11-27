@@ -70,55 +70,21 @@ Name: Address Patcher
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/addresspatcher.json
 
 Package: tsumtsum
-Version: 12.11.0
-Architecture: iphoneos-arm64
-Maintainer: moco
-Installed-Size: 6208
-Filename: debs/tsumtsum_12.11.0_iphoneos-arm64.deb
-Size: 1381794
-MD5sum: d8618be4c98b15cd65713eb6f3b4181c
-SHA1: b6601ae06231f3fcddc62725a19ef8bf168bf892
-SHA256: e450f24e4839a6115c38c4d8b27ba8782a21bc5f2df9b9f54fcbd1eca52f14ef
-Section: Tweaks
-Description: 全てのルートレスデバイスと互換性があります。
-Author: moco
-Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
-Name: TsumTsum M0C0 MENU
-SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
-
-Package: tsumtsum
 Version: 12.12.0
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6208
 Filename: debs/tsumtsum_12.12.0_iphoneos-arm64.deb
-Size: 1380268
-MD5sum: 54451915bc2a95150bc57dd74cc38c50
-SHA1: 7ca17404d603a521003e896dd4640714fab50391
-SHA256: 5d6a53579231e788099f5a72ed28cbda12ff9ccb66d0c274669a690b17fe8c04
+Size: 1382588
+MD5sum: e896efff252fd90696df10ba33cbe6d1
+SHA1: 1660804ead60a6d460b6777d79e3682ecdc36e0b
+SHA256: 7ad59d6bead04daefcf611581651cb460102a87c21fc20d3e0760db3ba94e23d
 Section: Tweaks
 Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
 Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
 Name: TsumTsum M0C0 MENU
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.json
-
-Package: tsumtsum.glasschampagne
-Version: 12.11.0
-Architecture: iphoneos-arm64
-Maintainer: moco
-Installed-Size: 11460
-Filename: debs/tsumtsum.glasschampagne_12.11.0_iphoneos-arm64.deb
-Size: 6659680
-MD5sum: cc5783d21010cc9cfa780578da6aa113
-SHA1: 20a310787e88b6cd5c36fc3a64039cebe319241d
-SHA256: ed318d3996aae179f51bbfddfd16f72c336903e4e90976cff95b46c76789c9d8
-Section: Tweaks
-Description: すべてのルートレスデバイスと互換性があります。
-Author: moco
-Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
-Name: TsumTsum Glass Champagne
-SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/champagne.json
 
 Package: tsumtsum.glasschampagne
 Version: 12.12.0
@@ -126,10 +92,10 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 11460
 Filename: debs/tsumtsum.glasschampagne_12.12.0_iphoneos-arm64.deb
-Size: 6660816
-MD5sum: 5bdaa54c24fe6910e14a5576351129bb
-SHA1: 26de011076c6d1d4ce4a2a14ee64f3ab9588fe90
-SHA256: b12d6bd8de5645b59063f7b60cf42f1d7f5f880a0a4cd8bc06654231408d3878
+Size: 6661066
+MD5sum: 512061a3d2634852281785c775b034cf
+SHA1: 88e1daa1b86b8d43321095068748bd1e7678c5c8
+SHA256: 43618ca1b9a9c63520efdfee354a68bba8c66b545a50fdd391c7b9da689779e4
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
@@ -138,32 +104,15 @@ Name: TsumTsum Glass Champagne
 SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/champagne.json
 
 Package: tsumtsum.glasscherry
-Version: 12.11.0
-Architecture: iphoneos-arm64
-Maintainer: moco
-Installed-Size: 7544
-Filename: debs/tsumtsum.glasscherry_12.11.0_iphoneos-arm64.deb
-Size: 2641006
-MD5sum: fe18664da72f282ef47b57f86d3455db
-SHA1: 7d8d2585bea94992977ed5d20141b6c2c656e711
-SHA256: c858ed24e2d6c734508c4aa84dd9a2c2c874a3b2dec8827a67d5dc84fbb65b55
-Section: Tweaks
-Description: すべてのルートレスデバイスと互換性があります。
-Author: moco
-Depiction: https://iosmoco.github.io/mocostore/repo/depiction/moco.html
-Name: TsumTsum Glass Cherry
-SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/cherry.json
-
-Package: tsumtsum.glasscherry
 Version: 12.12.0
 Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 7544
 Filename: debs/tsumtsum.glasscherry_12.12.0_iphoneos-arm64.deb
-Size: 2641862
-MD5sum: dee0f92e3dd62898f6f10c1efc067737
-SHA1: d4b288244041316c26cc6e60fdc011b574893d3c
-SHA256: 41c9573c863112377910e3bc4d0d0d044934f9f89c092270f6bf0ee690245e56
+Size: 2640870
+MD5sum: 1e38cb3da61891317d561468d4283876
+SHA1: b1a9093c76c1f447c609dda3e9bfbe0a681f4d8f
+SHA256: c72c0eeb3f8e37d38f0a44a82ec2cf226ed2cfde71e69a69ce00629e36f28aa4
 Section: Tweaks
 Description: すべてのルートレスデバイスと互換性があります。
 Author: moco
